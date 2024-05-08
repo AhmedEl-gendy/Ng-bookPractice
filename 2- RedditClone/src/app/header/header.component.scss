@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.6);
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-right: 6rem;
+    .book-img {
+      width: 40px;
+    }
+    .book-name {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
+  }
+}
